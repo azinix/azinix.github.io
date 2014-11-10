@@ -1,4 +1,4 @@
-azinix.github.io
-================
+azinix-dev
+==========
 
-Landing page for Azinix
+Development side of Azinix website
