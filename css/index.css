@@ -133,7 +133,7 @@ textarea.input{min-height: 100px;}
 	
 	.navigation > .container{width: 920px;}
 	.navigation > .container > div{max-width: 80%;}
-	.navigation > .container > div:first-child{max-width: 20%;}
+	.navigation > .container > div:first-child{max-width: 16%;}
 	.navigation > .container > div:first-child > a{max-width: 100%;}
 	.navigation > .container > div:first-child > a > img{max-width: 100%;}
 	.navigation > .container > div > ul > li{font-size: 16px;}
