@@ -18,7 +18,7 @@ a{text-decoration: none; color: inherit; border:0;}
 .header > .content > div > h1{font-weight: 300; font-size: 54px; color:#505050}
 .header > .content > div > h1 > span{font-weight: 400; color: #4c66a4;}
 .header > .content > div > p{white-space:pre-line; }
-.header > .content > div > .download-links{text-align:right; padding-top: 230px; padding-bottom:20px}
+.header > .content > div > .download-links{text-align:right; padding-top: 230px; padding-bottom:30px}
 .header > .more-link{display: block; width: 100%; max-width: 100%; color: #4c66a4; text-align: center; padding-top:0px}
 .header > .more-link > a > span{display: block; padding: 18px 0;}
 .header > .more-link > a > img{padding-bottom: 18px;}
@@ -110,19 +110,43 @@ textarea.input{min-height: 100px;}
 .more-bottom-padding{padding-top: 15px; padding-bottom: 45px;}
 .less-bottom{padding-bottom:10px !important; margin-bottom:0;}
 
-@media(max-width: 1600px){	
+
+@media(min-width: 2100px){
+
+	.header{padding-top:10%;}
+	.header > .content{font-size: 32px;}
+}
+
+@media(min-width: 2300px){
+	.header{padding-top: 10%}
+	.header > .content{font-size: 38px; margin: 0 15% 0 auto;}
+	.header > .content > div > h1{font-size: 72px;}
+	.header > .content > div > .download-links{padding-top: 45%;}
+}
+
+
+
+@media(max-width: 1800px){
+	.header > .content > div > .download-links{padding-bottom: 10px;}
+}
+
+@media(max-width: 1700px){	
 	.header{padding-top: 170px}
 	.header > .content{margin: 0 80px 0 auto; font-size: 28px;}
 	.header > .content > div{margin:0 65px 0 auto;}
-	.header > .content > div > .download-links{padding-top: 150px; padding-bottom:10px}
+	.header > .content > div > .download-links{padding-top: 170px; padding-bottom:60px}
 }
 
-@media(max-width: 1440px){
+@media(max-width: 1600px){
 	.header{padding-top: 150px}
 	.header > .content{font-size: 24px;}
 	.header > .content > div{ max-width: 700px; margin:0 0 0 auto;}
 	.header > .content > div > h1{font-size: 48px;}
-	.header > .content > div > .download-links{padding-top: 140px; padding-bottom:20px}
+	.header > .content > div > .download-links{padding-top: 150px; padding-bottom:40px}
+}
+
+@media(max-width: 1460px){
+	.header > .content > div > .download-links{padding-top: 140px; padding-bottom: 20px;}
 }
 
 @media(max-width: 1366px){
